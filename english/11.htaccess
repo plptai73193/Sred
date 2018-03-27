@@ -1,0 +1,6 @@
+AuthUserFile "/var/www/data/acc_cnt_user_list.dat"
+AuthGroupFile "/dev/null"
+AuthName "AccessControlServices"
+AuthType Basic
+require user 
+require user sred
