@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*
+Theme Name:Sred
+Decription:Sred
+Author:管理人
+*/
+
+
+/* ======== レイアウト ======== */
+.mw_wp_form .horizontal-item + .horizontal-item {
+    margin-left: 0px !important;
+}
+.input-other {
+    width: 165px !important;
+}
+
+.mwform-checkbox-field {}
+
+.form-control {
+    border: solid 2px #ccc;
+}
+
+.inline {
+    display: inline;
+}
+
+.mw_wp_form .sct-title {
+    margin-bottom: 40px;
+}
+
+.mw_wp_form .form-desc {
+    margin: 20px 0;
+}
+
+.mw_wp_form_preview label {
+    font-weight: 700;
+    display: block;
+}
+
+.mw_wp_form_preview .help-text {
+    display: none;
+}
+
+.mc0 .mwform-checkbox-field {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.list-form .item {
+    padding: 5px 0;
+}
+
+.list-form .item .title {
+    padding-left: 40px;
+}
+
+.list-form .item:before {
+    position: absolute;
+    content: attr(data-num);
+    left: 15px;
+}
+
+.mwform-checkbox-field {
+    margin-right: 20px;
+}
+
+.mw_wp_form_preview .req,
+.mw_wp_form_preview .privacy-box {
+    display: none;
+}
+
+.btn-back {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.btn-back::after {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    background: #000;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+}
+
+.web-seal {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.web-seal a {
+    float: none;
+}
+
+.web-seal-text {
+    line-height: 29px;
+    text-align: left;
+}
+.mwform-checkbox-field-text a {
+    border-bottom: 1px #000 solid;
+}
+.thank-box {
+    text-align: center;
+    background: #fbfbfb;
+    border: 1px #a8a8a8 solid;
+    border-radius: 4px;
+    padding: 20px;
+    font-family: 'notosans';
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.thank-box span {
+    display: none;
+}
+
+.other-block {
+    display: inline-block;
+}
+
+@media screen and (min-width: 544px) {
+    .thank-box span {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .web-seal {
+        text-align: left;
+    }
+    .web-seal a {
+        float: left;
+    }
+    .web-seal-text {}
+}
+@media screen and (min-width: 1200px) {
+    .other-block {
+        display: inline-block;
+        margin-left: 10px;
+        float: right;
+    }
+    .other-block .input-other {
+        float: right;
+            margin-left: 15px;
+    }
+    .mw_wp_form .horizontal-item + .horizontal-item {
+        margin-left: 10px !important;
+    }
+    .mc0 .mwform-checkbox-field {
+        margin-right: 5px;
+    }
+}
