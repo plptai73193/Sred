@@ -1,0 +1,24 @@
+/*
+ * CSS document
+ * CSS by PLPT
+ */
+ .en .index #sellinganalysis .selling .list .item.item1{
+ 	cursor: pointer;
+ }
+.en .index #sellinganalysis .selling .list .item .image{
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.en .index #sellinganalysis .selling .list .item:hover .image .slides,.en .index #sellinganalysis .selling .list .item:hover .image img{
+	opacity: 1;
+}
+.en .index #sellinganalysis .selling .list .item.item1:hover .image::after{
+	content: initial;
+}
+.en .index #sellinganalysis .selling .list .item:hover .image::after{
+	content: initial;
+}
+.en .index #sellinganalysis .selling .list .item:hover .image::before{
+	content: initial;
+}

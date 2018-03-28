@@ -22,6 +22,7 @@
 <link rel="alternate" href="https://www.sred.co.jp/" hreflang="ja" />
 <link rel="alternate" href="https://www.sred.co.jp/english/" hreflang="en" />
 <link rel="stylesheet" href="../assets/css/style.css?1" type="text/css"  />
+<link rel="stylesheet" href="../assets/css/style_en.css?1" type="text/css"  />
 <script src="../assets/js/build.js"></script>
 <script src="../assets/js/script.js?1"></script>
 </head>
@@ -216,7 +217,7 @@ we are exploring and utilizing <br class="brsm">underground resources for the fu
 						<div class="sct-desc">Drilling equipment developed from abundant achievements and technology research</div>		
 						
 						<div class="list">
-							<a class="item item1" href="#">
+							<div class="item item1">
 								<div class="image">
 									<div class="slides">
 										<img src="../assets/images/index/selling1-1.jpg" alt="Composite rods" />
@@ -226,26 +227,26 @@ we are exploring and utilizing <br class="brsm">underground resources for the fu
 									
 								</div>
 								<h5 class="title">Composite rods</h5>
-							</a>
-							<a class="item item3" href="#">
+							</div>
+							<span class="item item3" >
 								<div class="image">							
 									<img src="../assets/images/index/selling3.jpg" alt="Tube metal" />
 								</div>
 								<h5 class="title">Tube metal</h5>
-							</a>
-							<a class="item item2" href="#">
+							</span>
+							<span class="item item2">
 								<div class="image">
 									<img src="../assets/images/index/selling2.jpg" alt="Rod rubcon" />
 								</div>
 								<h5 class="title">Rod rubcon</h5>
-							</a>
+							</span>
 							
-							<a class="item item4" href="#">
+							<span class="item item4">
 								<div class="image">							
 									<img src="../assets/images/index/selling4.jpg" alt="Spray torch and powder" />
 								</div>
 								<h5 class="title">Spray torch<br />and powder</h5>
-							</a>
+							</span>
 						</div>
 
 
